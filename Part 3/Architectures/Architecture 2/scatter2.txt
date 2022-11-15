@@ -1,0 +1,27 @@
+ROM 0x0 0x628C
+{
+	ROM 0x0 0x6288
+	{
+		*.o ( +RO )
+	}
+	DRAM 0x6288 0x3297E0
+	{
+		* ( +ZI,+RW )
+	}
+	SRAM 0x32FA68 0x1E5D90
+	{
+		* (slow)
+	}
+	CACHE 0x5157F8 0x7C
+	{
+		* (fast)
+	}
+}
+
+
+
+
+
+
+
+
