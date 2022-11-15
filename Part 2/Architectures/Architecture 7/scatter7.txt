@@ -1,0 +1,27 @@
+ROM 0x0 0x5C8C
+{
+	ROM 0x0 0x5C88
+	{
+		*.o ( +RO )
+	}
+	RAM 0x5C88 0x3297E0
+	{
+		* ( +ZI,+RW )
+	}
+	SRAM1 0x32F468 0x1E4620
+	{
+		* (slow)
+	}
+	SRAM2 0x513A88 0x7C
+	{
+		* (fast)
+	}
+}
+
+
+
+
+
+
+
+
