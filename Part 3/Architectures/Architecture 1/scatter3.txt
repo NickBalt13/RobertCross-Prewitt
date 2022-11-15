@@ -1,0 +1,23 @@
+ROM 0x0 0x62A8
+{
+	ROM 0x0 0x62A4
+	{
+		*.o ( +RO )
+	}
+	DRAM 0x62A4 0x50F570
+	{
+		* ( +ZI,+RW )
+	}
+	Cache 0x515814 0x80
+	{
+		* (manual)
+	}
+}
+
+
+
+
+
+
+
+
